@@ -63,4 +63,8 @@ function exibirDetalhesOferta(vagaIndex) {
     `;
 
     document.getElementById("detalhes-oferta").innerHTML = detalhes;
+    
+    function exibirMensagem() {
+    alert("Olá! Você clicou no botão usando o JavaScript externo.");
 }
+
